@@ -1,0 +1,13 @@
+/* set body to display flex */
+body {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+trip-card.trip-card, trip-card .tripCard {
+    /* child flex properties below */
+    flex-grow: 1;
+    flex-basis: 46%;
+    margin: 1%;
+    min-width:400px;
+}

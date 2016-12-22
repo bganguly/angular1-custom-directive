@@ -1,0 +1,71 @@
+<div class="tripCard roundedCorner">
+    <div class="cardHeader overFlowAuto">
+        <div class="userProfile spacer5px floatLeft"
+             style="background-image: url({{eachObject.customer.profileImage}})">
+        </div>
+        <div class="tripDetails">
+            <div class="tripDecsription">
+                {{eachObject.tripDescription}}
+            </div>
+            <div class="bookedBy">
+                Booked by {{eachObject.customer.firstName}} {{eachObject.customer.lastName}}
+            </div>
+        </div>
+    </div>
+    <div class="cardDetails overFlowAuto">
+        <div class="cardDetailsLeft floatLeft">
+            <div class="fromTo">
+                <span>{{eachObject.legs[0].fromAirport.iata}}</span> ->
+                <span>{{eachObject.legs[0].toAirport.iata}}</span>
+            </div>
+            <div class ="aircraftProfile"
+                 style="background-image: url({{eachObject.aircraft.images[0]}})">
+            </div>
+            <div class="aircraftDetails">
+                <p>{{eachObject.aircraft.name}}</p>
+                <p>{{eachObject.aircraft.tailNumber}}</p>
+            </div>
+            <div class="passengers overFlowAuto">
+                <div class="userProfile spacer5px floatLeft"
+                     style="background-image: url({{eachPassenger}})"
+                     ng-repeat="eachPassenger in eachObject.passengers">
+                </div>
+            </div>
+        </div>
+        <div class="cardDetailsRight floatLeft">
+            <div class="departureInfo overFlowAuto">
+                <div class="departureIcon floatLeft">
+
+                </div>
+                <div class="departureDetails floatLeft">
+                    <p>Departure - {{eachObject.legs[0].fromAirport.iata}}</p>
+                    <p>{{eachObject.legs[0].departureTime}}</p>
+                    <p>{{eachObject.legs[0].departureDate}}</p>
+                </div>
+            </div>
+            <div class="arrivalInfo overFlowAuto">
+                <div class="arrivalIcon floatLeft">
+
+                </div>
+                <div class="arrivalDetails floatLeft">
+                    <p>Arrival - {{eachObject.legs[0].toAirport.iata}}</p>
+                    <p>{{eachObject.legs[0].arrivalTime}}</p>
+                    <p>{{eachObject.legs[0].arrivalDate}}</p>
+                </div>
+            </div>
+            <div class="totalPassengers overFlowAuto">
+                <div class="manIcon floatLeft">
+
+                </div>
+                <div class="passengerCount floatLeft">
+                    <p>{{eachObject.passengers.length}}</p>
+                </div>
+            </div>
+            <div class="selectFlightContainer">
+                <button class="selectFlight">
+                    Select Flight
+                </button>
+            </div>
+        </div>
+    </div>
+</div>

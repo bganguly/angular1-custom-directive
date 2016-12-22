@@ -1,0 +1,185 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* app specific css here */
+/* general styles */
+* {
+    font-family: "helvetica";
+}
+
+.overFlowAuto {
+    overflow: auto;
+}
+.floatLeft {
+    float: left;
+}
+
+.roundedCorner {
+    border-radius:4px;
+    border-color: black;
+    border:1px solid;
+}
+
+.spacer5px {
+    margin:5px 10px 5px 5px;
+}
+
+/* specific functional css*/
+/* set body to display flex */
+body {
+    font-family: "helvetica";
+}
+
+.cardHeader{
+    background: black;
+    padding:10px;
+}
+.tripDetails {
+    margin-left:10px;
+    margin-top: 7px;
+}
+
+.tripDecsription {
+    color: darkgray;
+    font-size:13px;
+}
+.bookedBy {
+    text-transform: uppercase;
+    color:#a140d6;
+    font-size: 9px;
+    margin-top: 5px;
+}
+
+.userProfile,.aircraftProfile {
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.userProfile {
+    width: 30px;
+    height: 30px;
+}
+
+.aircraftProfile {
+    width: 60px;
+    height: 60px;
+    margin: -8px auto 5px auto;
+}
+.aircraftDetails {
+    font-size: 8px;
+    text-align: center;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+.aircraftDetails p:first-child {
+    font-weight: bold;
+}
+.cardDetailsLeft {
+    width:60%;
+}
+
+.fromTo {
+    text-align: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #e5e6e8;
+}
+
+.fromTo span {
+    font-weight:bold;
+}
+.cardDetailsRight {
+    font-size: 10px;
+    padding-left:10px;
+    border-left: 1px solid #e5e6e8;
+}
+.departureIcon, .arrivalIcon, .manIcon {
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 48px;
+    width: 48px;
+}
+
+.departureIcon {
+    background-image: url("/stellarApp/assets/icons/flight_takeoff.svg");
+}
+
+.arrivalIcon {
+    background-image: url("/stellarApp/assets/icons/flight_land.svg");
+}
+.manIcon {
+    background-image: url("/stellarApp/assets/icons/man.svg");
+}
+.departureInfo,.arrivalInfo {
+    border-bottom: 1px solid #e5e6e8;
+}
+.departureInfo,.arrivalInfo,.totalPassengers,
+.selectFlightContainer{
+    padding-bottom: 10px;
+}
+
+.departureDetails, .arrivalDetails ,.passengerCount{
+    margin-top: 10px;
+}
+
+.departureDetails p,.arrivalDetails p,.passengerCount p {
+    margin:3px 0;
+}
+.departureDetails p:first-child,.arrivalDetails p:first-child,
+.passengerCount p:first-child {
+    font-weight:bold;
+}
+.selectFlight {
+    background-color: #267f3c;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    margin-left:20px;
+}

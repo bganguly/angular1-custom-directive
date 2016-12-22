@@ -1,0 +1,493 @@
+{
+   "okay":true,
+   "message":null,
+   "objectCount":3,
+   "object":[
+      {
+         "tripType":"ONEWAY",
+         "tripDescription": "Board Meeting in NY",
+         "customer": {
+            "firstName": "David",
+            "lastName": "Fox",
+            "profileImage": "https://stellar.aero/site-content/team/david-fox.jpg"
+         },
+         "aircraft":{
+            "typeId":95,
+            "tailNumber":"N748929",
+            "maxPax":9,
+            "details":{
+               "interiorRefurbishDate":2012,
+               "id":186,
+               "version":27
+            },
+            "typeEnum":"SUPER_MID",
+            "yearOfMake":2004,
+            "genericData":null,
+            "images":[
+               "https://common-public.stellar.aero/entity/AircraftType/95_1438623334222_Gulfstream_G200_hq.jpg",
+               "https://common-public.stellar.aero/entity/Aircraft/186_1436902999217_N990JT_EXT_SIDE_1.JPG"
+            ],
+            "type":"Super Midsize Jet",
+            "name":"Gulfstream 200",
+            "typeCode":"G200",
+            "id":186,
+            "version":28
+         },
+          "passengers":[
+             "https://stellar.aero/site-content/team/paul-touw.jpg",
+             "https://stellar.aero/site-content/team/david-fox.jpg",
+             "https://stellar.aero/site-content/team/greg-williams.jpg",
+             "https://stellar.aero/site-content/team/dan-lee.jpg",
+             "https://stellar.aero/site-content/team/steve-harish.jpg"
+          ],
+         "legs":[
+            {
+               "fromAirport":{
+                  "id":2194,
+                  "code":"SFO",
+                  "timeZone":"America/Los_Angeles",
+                  "lat":37.618806,
+                  "lon":-122.375417,
+                  "address":null,
+                  "phone":null,
+                  "city":"San Francisco",
+                  "state":"California",
+                  "stateCode":"CA",
+                  "postalCode":null,
+                  "country":"United States",
+                  "iata":"SFO",
+                  "name":"San Francisco Intl"
+               },
+               "toAirport":{
+                  "id":1968,
+                  "code":"LAX",
+                  "timeZone":"America/Los_Angeles",
+                  "lat":33.942625,
+                  "lon":-118.407803,
+                  "address":null,
+                  "phone":null,
+                  "city":"Los Angeles",
+                  "state":"California",
+                  "stateCode":"CA",
+                  "postalCode":null,
+                  "country":"United States",
+                  "iata":"LAX",
+                  "name":"Los Angeles Intl"
+               },
+               "departureDateTime":"01/07/2017 09:00 AM",
+               "arrivalDateTime":"01/07/2017 10:06 AM",
+               "alternative":null,
+               "distance":337.8,
+               "pax":1,
+               "flightTime":66,
+               "departureDate":"01/07/2017",
+               "departureTime":"09:00 AM",
+               "arrivalDate":"01/07/2017",
+               "arrivalTime":"10:06 AM",
+               "numberOfStops":0,
+               "fromFBO":null,
+               "toFBO":null,
+               "id":84785,
+               "version":0
+            }
+         ]
+      },
+      {
+         "tripType":"ROUNDTRIP",
+         "tripDescription": "The Johnson's Wedding Party",
+         "customer": {
+            "firstName": "Greg",
+            "lastName": "Williams",
+            "profileImage": "https://stellar.aero/site-content/team/greg-williams.jpg"
+         },
+         "aircraft":{
+            "typeId":14,
+            "tailNumber":"N091349",
+            "maxPax":7,
+            "typeEnum":"LIGHT",
+            "yearOfMake":2005,
+            "images":[
+               "https://common-public.stellar.aero/entity/AircraftType/14_1438622325078_Cessna_Citation_CJ2_hq.jpg"
+            ],
+            "type":"Light Jet",
+            "name":"Citation CJ2",
+            "typeCode":"C25A",
+            "id":1424
+         },
+          "passengers":[
+             "https://stellar.aero/site-content/team/paul-touw.jpg",
+             "https://stellar.aero/site-content/team/david-fox.jpg",
+             "https://stellar.aero/site-content/team/TimOBrien_Headshot.png",
+             "https://stellar.aero/site-content/team/Stellar_Fred_Powell-1.jpg",
+             "https://stellar.aero/site-content/team/richard-thomas.jpg",
+             "https://stellar.aero/site-content/team/greg-williams.jpg"
+          ],
+         "legs":[
+            {
+               "fromAirport":{
+                  "id":1703,
+                  "code":"APA",
+                  "timeZone":"America/Denver",
+                  "lat":39.570128,
+                  "lon":-104.849306,
+                  "address":null,
+                  "phone":null,
+                  "city":"Denver",
+                  "state":"Colorado",
+                  "stateCode":"CO",
+                  "postalCode":null,
+                  "country":"United States",
+                  "iata":"APA",
+                  "name":"Centennial"
+               },
+               "toAirport":{
+                  "id":2176,
+                  "code":"SAN",
+                  "timeZone":"America/Los_Angeles",
+                  "lat":32.733556,
+                  "lon":-117.189667,
+                  "address":null,
+                  "phone":null,
+                  "city":"San Diego",
+                  "state":"California",
+                  "stateCode":"CA",
+                  "postalCode":null,
+                  "country":"United States",
+                  "iata":"SAN",
+                  "name":"San Diego Intl"
+               },
+               "departureDateTime":"01/13/2017 06:00 AM",
+               "arrivalDateTime":"01/13/2017 07:36 AM",
+               "alternative":null,
+               "distance":835.38,
+               "pax":1,
+               "flightTime":156,
+               "departureDate":"01/13/2017",
+               "departureTime":"06:00 AM",
+               "arrivalDate":"01/13/2017",
+               "arrivalTime":"07:36 AM",
+               "numberOfStops":0,
+               "fromFBO":null,
+               "toFBO":null,
+               "id":83596,
+               "version":0
+            },
+            {
+               "fromAirport":{
+                  "id":2176,
+                  "code":"SAN",
+                  "timeZone":"America/Los_Angeles",
+                  "lat":32.733556,
+                  "lon":-117.189667,
+                  "address":null,
+                  "phone":null,
+                  "city":"San Diego",
+                  "state":"California",
+                  "stateCode":"CA",
+                  "postalCode":null,
+                  "country":"United States",
+                  "iata":"SAN",
+                  "name":"San Diego Intl"
+               },
+               "toAirport":{
+                  "id":1703,
+                  "code":"APA",
+                  "timeZone":"America/Denver",
+                  "lat":39.570128,
+                  "lon":-104.849306,
+                  "address":null,
+                  "phone":null,
+                  "city":"Denver",
+                  "state":"Colorado",
+                  "stateCode":"CO",
+                  "postalCode":null,
+                  "country":"United States",
+                  "iata":"APA",
+                  "name":"Centennial"
+               },
+               "departureDateTime":"01/14/2017 09:00 AM",
+               "arrivalDateTime":"01/14/2017 12:18 PM",
+               "alternative":null,
+               "distance":835.38,
+               "pax":1,
+               "flightTime":138,
+               "departureDate":"01/14/2017",
+               "departureTime":"09:00 AM",
+               "arrivalDate":"01/14/2017",
+               "arrivalTime":"12:18 PM",
+               "numberOfStops":0,
+               "fromFBO":null,
+               "toFBO":null,
+               "id":83597,
+               "version":0
+            }
+         ]
+      },
+      {
+         "tripType":"ONEWAY",
+         "tripDescription": "Mission Trip to Dubai",
+         "customer": {
+            "firstName": "Tim",
+            "lastName": "OBrien",
+            "profileImage": "https://stellar.aero/site-content/team/TimOBrien_Headshot.png"
+         },
+         "aircraft":{
+            "typeId":56,
+            "tailNumber":"N748KT29",
+            "maxPax":8,
+            "typeEnum":"LIGHT",
+            "yearOfMake":2001,
+            "images":[
+               "https://common-public.stellar.aero/entity/AircraftType/56_1438624417590_Bombardier_Learjet_45_hq.jpg"
+            ],
+            "type":"Light Jet",
+            "name":"Learjet 45",
+            "typeCode":"LJ45",
+            "id":1650,
+            "version":14
+         },
+          "passengers":[
+             "https://stellar.aero/site-content/team/TimOBrien_Headshot.png",
+             "https://stellar.aero/site-content/team/greg-williams.jpg",
+             "https://stellar.aero/site-content/team/dan-lee.jpg",
+             "https://stellar.aero/site-content/team/steve-harish.jpg"
+          ],
+         "legs":[
+            {
+               "fromAirport":{
+                  "id":2194,
+                  "code":"SFO",
+                  "timeZone":"America/Los_Angeles",
+                  "lat":37.618806,
+                  "lon":-122.375417,
+                  "address":null,
+                  "phone":null,
+                  "city":"San Francisco",
+                  "state":"California",
+                  "stateCode":"CA",
+                  "postalCode":null,
+                  "country":"United States",
+                  "iata":"SFO",
+                  "name":"San Francisco Intl"
+               },
+               "toAirport":{
+                  "id":2023,
+                  "code":"MIA",
+                  "timeZone":"America/New_York",
+                  "lat":25.795361,
+                  "lon":-80.290111,
+                  "address":null,
+                  "phone":null,
+                  "city":"Miami",
+                  "state":"Florida",
+                  "stateCode":"FL",
+                  "postalCode":null,
+                  "country":"United States",
+                  "iata":"MIA",
+                  "name":"Miami Intl"
+               },
+               "departureDateTime":"12/29/2016 09:00 AM",
+               "arrivalDateTime":"12/29/2016 06:00 PM",
+               "alternative":null,
+               "distance":2587.55,
+               "pax":1,
+               "flightTime":360,
+               "departureDate":"12/29/2016",
+               "departureTime":"09:00 AM",
+               "arrivalDate":"12/29/2016",
+               "arrivalTime":"06:00 PM",
+               "numberOfStops":1,
+               "fromFBO":null,
+               "toFBO":null,
+               "id":83536,
+               "version":0
+            }
+         ]
+      },
+      {
+         "tripType":"MULTILEG",
+         "tripDescription": "Visiting David Fox's investors in San Francisco, New York and in Chicago",
+         "customer": {
+            "firstName": "Paul",
+            "lastName": "Touw",
+            "profileImage": "https://stellar.aero/site-content/team/paul-touw.jpg"
+         },
+         "aircraft":{
+            "typeId":6,
+            "tailNumber":"N446929",
+            "maxPax":9,
+            "details":{
+               "interiorRefurbishDate":1999,
+               "id":1238,
+               "version":27
+            },
+            "typeEnum":"TURBOPROP",
+            "yearOfMake":1981,
+            "images":[
+               "https://common-public.stellar.aero/entity/AircraftType/6_1438624092672_Beechcraft_KingAir_B200_hq.jpg"
+            ],
+            "type":"Turboprop",
+            "name":"King Air B200",
+            "typeCode":"BE20",
+            "id":1238,
+            "version":26
+         },
+          "passengers":[
+             "https://stellar.aero/site-content/team/paul-touw.jpg",
+             "https://stellar.aero/site-content/team/david-fox.jpg"
+          ],
+         "legs":[
+            {
+               "fromAirport":{
+                  "id":2194,
+                  "code":"SFO",
+                  "timeZone":"America/Los_Angeles",
+                  "lat":37.618806,
+                  "lon":-122.375417,
+                  "address":null,
+                  "phone":null,
+                  "city":"San Francisco",
+                  "state":"California",
+                  "stateCode":"CA",
+                  "postalCode":null,
+                  "country":"United States",
+                  "iata":"SFO",
+                  "name":"San Francisco Intl"
+               },
+               "toAirport":{
+                  "id":1,
+                  "code":"TEB",
+                  "timeZone":"America/New_York",
+                  "lat":40.850111,
+                  "lon":-74.060833,
+                  "address":null,
+                  "phone":"408-111-2233",
+                  "city":"Teterboro",
+                  "state":"New Jersey",
+                  "stateCode":"NJ",
+                  "postalCode":null,
+                  "country":"United States",
+                  "iata":"TEB",
+                  "name":"Teterboro"
+               },
+               "departureDateTime":"11/30/2016 09:24 PM",
+               "arrivalDateTime":"12/01/2016 09:00 AM",
+               "alternative":null,
+               "distance":2572.44,
+               "pax":3,
+               "flightTime":516,
+               "departureDate":"11/30/2016",
+               "departureTime":"09:24 PM",
+               "arrivalDate":"12/01/2016",
+               "arrivalTime":"09:00 AM",
+               "numberOfStops":1,
+               "fromFBO":null,
+               "toFBO":null,
+               "id":80604,
+               "version":0
+            },
+            {
+               "fromAirport":{
+                  "id":1,
+                  "code":"TEB",
+                  "timeZone":"America/New_York",
+                  "lat":40.850111,
+                  "lon":-74.060833,
+                  "address":null,
+                  "phone":"408-111-2233",
+                  "city":"Teterboro",
+                  "state":"New Jersey",
+                  "stateCode":"NJ",
+                  "postalCode":null,
+                  "country":"United States",
+                  "iata":"TEB",
+                  "name":"Teterboro"
+               },
+               "toAirport":{
+                  "id":2011,
+                  "code":"MDW",
+                  "timeZone":"America/Chicago",
+                  "lat":41.785972,
+                  "lon":-87.752417,
+                  "address":null,
+                  "phone":null,
+                  "city":"Chicago",
+                  "state":"Illinois",
+                  "stateCode":"IL",
+                  "postalCode":null,
+                  "country":"United States",
+                  "iata":"MDW",
+                  "name":"Chicago Midway Intl"
+               },
+               "departureDateTime":"12/15/2016 06:35 AM",
+               "arrivalDateTime":"12/15/2016 09:00 AM",
+               "alternative":null,
+               "distance":715.54,
+               "pax":3,
+               "flightTime":205,
+               "departureDate":"12/15/2016",
+               "departureTime":"06:35 AM",
+               "arrivalDate":"12/15/2016",
+               "arrivalTime":"09:00 AM",
+               "numberOfStops":0,
+               "fromFBO":null,
+               "toFBO":null,
+               "id":80605,
+               "version":0
+            },
+            {
+               "fromAirport":{
+                  "id":2011,
+                  "code":"MDW",
+                  "timeZone":"America/Chicago",
+                  "lat":41.785972,
+                  "lon":-87.752417,
+                  "address":null,
+                  "phone":null,
+                  "city":"Chicago",
+                  "state":"Illinois",
+                  "stateCode":"IL",
+                  "postalCode":null,
+                  "country":"United States",
+                  "iata":"MDW",
+                  "name":"Chicago Midway Intl"
+               },
+               "toAirport":{
+                  "id":2190,
+                  "code":"SEA",
+                  "timeZone":"America/Los_Angeles",
+                  "lat":47.449889,
+                  "lon":-122.311778,
+                  "address":null,
+                  "phone":null,
+                  "city":"Seattle",
+                  "state":"Washington",
+                  "stateCode":"WA",
+                  "postalCode":null,
+                  "country":"United States",
+                  "iata":"SEA",
+                  "name":"Seattle-Tacoma Intl"
+               },
+               "departureDateTime":"12/30/2016 02:58 AM",
+               "arrivalDateTime":"12/30/2016 09:00 AM",
+               "alternative":null,
+               "distance":1736.34,
+               "pax":3,
+               "flightTime":482,
+               "departureDate":"12/30/2016",
+               "departureTime":"02:58 AM",
+               "arrivalDate":"12/30/2016",
+               "arrivalTime":"09:00 AM",
+               "numberOfStops":1,
+               "fromFBO":null,
+               "toFBO":null,
+               "id":80606,
+               "version":0
+            }
+         ]
+      }
+   ],
+   "requestParams":{
+      "status":"BOOKED|PRE_BOOKED"
+   }
+}
