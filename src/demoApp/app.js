@@ -4,4 +4,4 @@
 'use strict';
 //initialize namespace
 var NS = {};
-NS.stellarApp = angular.module('stellarApp',[]);
+NS.demoApp = angular.module('demoApp',[]);

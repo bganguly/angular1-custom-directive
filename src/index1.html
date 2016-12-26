@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="stellarApp">
+<html lang="en" ng-app="demoApp">
 <head  >
     <meta charset="UTF-8">
     <title>using custom directive</title>
@@ -9,12 +9,12 @@
     <meta http-equiv="Cache-Control" content="no-cache">
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Expires" content="0">
-    <link rel="stylesheet" type="text/css" href="/stellarApp/styles/app.css">
-    <link rel="stylesheet" type="text/css" href="/stellarApp/styles/customDirectiveFlexBox.css">
+    <link rel="stylesheet" type="text/css" href="/demoApp/styles/app.css">
+    <link rel="stylesheet" type="text/css" href="/demoApp/styles/customDirectiveFlexBox.css">
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.20/angular.min.js"></script>
-    <script type="text/javascript" src="/stellarApp/app.js"></script>
-    <script type="text/javascript" src="/stellarApp/directives/tripCard.js"></script>
-    <script type="text/javascript" src="/stellarApp/controllers/cardController.js"></script>
+    <script type="text/javascript" src="/demoApp/app.js"></script>
+    <script type="text/javascript" src="/demoApp/directives/tripCard.js"></script>
+    <script type="text/javascript" src="/demoApp/controllers/cardController.js"></script>
 </head>
 <body  ng-controller="tripCard as tripCardCtl">
     <trip-card class="trip-card" ng-repeat="eachObject in tripCardCtl.tripCardsData.object">

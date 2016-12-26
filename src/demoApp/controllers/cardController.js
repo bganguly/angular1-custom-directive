@@ -18,7 +18,7 @@ NS.tripCard.prototype.init_ = function (httpService) {
 
 NS.tripCard.prototype.getTripData = function (httpService) {
     var self = this;
-    httpService.get('/stellarApp/data/response.json').
+    httpService.get('/demoApp/data/response.json').
     success(function (data, status) {
         if (typeof data !== 'undefined') {
             self.tripCardsData = data;
@@ -33,4 +33,4 @@ NS.tripCard.prototype.getTripData = function (httpService) {
 };
 
 
-NS.stellarApp.controller('tripCard', NS.tripCard);
+NS.demoApp.controller('tripCard', NS.tripCard);

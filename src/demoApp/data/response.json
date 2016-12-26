@@ -9,7 +9,7 @@
          "customer": {
             "firstName": "David",
             "lastName": "Fox",
-            "profileImage": "https://stellar.aero/site-content/team/david-fox.jpg"
+            "profileImage": "/demoApp/assets/site-content/team/david-fox.jpg"
          },
          "aircraft":{
             "typeId":95,
@@ -24,8 +24,8 @@
             "yearOfMake":2004,
             "genericData":null,
             "images":[
-               "https://common-public.stellar.aero/entity/AircraftType/95_1438623334222_Gulfstream_G200_hq.jpg",
-               "https://common-public.stellar.aero/entity/Aircraft/186_1436902999217_N990JT_EXT_SIDE_1.JPG"
+               "/demoApp/assets/entity/AircraftType/95_1438623334222_Gulfstream_G200_hq.jpg",
+               "/demoApp/assets/entity/Aircraft/186_1436902999217_N990JT_EXT_SIDE_1.JPG"
             ],
             "type":"Super Midsize Jet",
             "name":"Gulfstream 200",
@@ -34,11 +34,11 @@
             "version":28
          },
           "passengers":[
-             "https://stellar.aero/site-content/team/paul-touw.jpg",
-             "https://stellar.aero/site-content/team/david-fox.jpg",
-             "https://stellar.aero/site-content/team/greg-williams.jpg",
-             "https://stellar.aero/site-content/team/dan-lee.jpg",
-             "https://stellar.aero/site-content/team/steve-harish.jpg"
+             "/demoApp/assets/site-content/team/paul-touw.jpg",
+             "/demoApp/assets/site-content/team/david-fox.jpg",
+             "/demoApp/assets/site-content/team/greg-williams.jpg",
+             "/demoApp/assets/site-content/team/dan-lee.jpg",
+             "/demoApp/assets/site-content/team/steve-harish.jpg"
           ],
          "legs":[
             {
@@ -98,7 +98,7 @@
          "customer": {
             "firstName": "Greg",
             "lastName": "Williams",
-            "profileImage": "https://stellar.aero/site-content/team/greg-williams.jpg"
+            "profileImage": "/demoApp/assets/site-content/team/greg-williams.jpg"
          },
          "aircraft":{
             "typeId":14,
@@ -107,7 +107,7 @@
             "typeEnum":"LIGHT",
             "yearOfMake":2005,
             "images":[
-               "https://common-public.stellar.aero/entity/AircraftType/14_1438622325078_Cessna_Citation_CJ2_hq.jpg"
+               "/demoApp/assets/entity/AircraftType/14_1438622325078_Cessna_Citation_CJ2_hq.jpg"
             ],
             "type":"Light Jet",
             "name":"Citation CJ2",
@@ -115,12 +115,12 @@
             "id":1424
          },
           "passengers":[
-             "https://stellar.aero/site-content/team/paul-touw.jpg",
-             "https://stellar.aero/site-content/team/david-fox.jpg",
-             "https://stellar.aero/site-content/team/TimOBrien_Headshot.png",
-             "https://stellar.aero/site-content/team/Stellar_Fred_Powell-1.jpg",
-             "https://stellar.aero/site-content/team/richard-thomas.jpg",
-             "https://stellar.aero/site-content/team/greg-williams.jpg"
+             "/demoApp/assets/site-content/team/paul-touw.jpg",
+             "/demoApp/assets/site-content/team/david-fox.jpg",
+             "/demoApp/assets/site-content/team/TimOBrien_Headshot.png",
+             "/demoApp/assets/site-content/team/Stellar_Fred_Powell-1.jpg",
+             "/demoApp/assets/site-content/team/richard-thomas.jpg",
+             "/demoApp/assets/site-content/team/greg-williams.jpg"
           ],
          "legs":[
             {
@@ -229,7 +229,7 @@
          "customer": {
             "firstName": "Tim",
             "lastName": "OBrien",
-            "profileImage": "https://stellar.aero/site-content/team/TimOBrien_Headshot.png"
+            "profileImage": "/demoApp/assets/site-content/team/TimOBrien_Headshot.png"
          },
          "aircraft":{
             "typeId":56,
@@ -238,7 +238,7 @@
             "typeEnum":"LIGHT",
             "yearOfMake":2001,
             "images":[
-               "https://common-public.stellar.aero/entity/AircraftType/56_1438624417590_Bombardier_Learjet_45_hq.jpg"
+               "/demoApp/assets/entity/AircraftType/56_1438624417590_Bombardier_Learjet_45_hq.jpg"
             ],
             "type":"Light Jet",
             "name":"Learjet 45",
@@ -247,10 +247,10 @@
             "version":14
          },
           "passengers":[
-             "https://stellar.aero/site-content/team/TimOBrien_Headshot.png",
-             "https://stellar.aero/site-content/team/greg-williams.jpg",
-             "https://stellar.aero/site-content/team/dan-lee.jpg",
-             "https://stellar.aero/site-content/team/steve-harish.jpg"
+             "/demoApp/assets/site-content/team/TimOBrien_Headshot.png",
+             "/demoApp/assets/site-content/team/greg-williams.jpg",
+             "/demoApp/assets/site-content/team/dan-lee.jpg",
+             "/demoApp/assets/site-content/team/steve-harish.jpg"
           ],
          "legs":[
             {
@@ -310,7 +310,7 @@
          "customer": {
             "firstName": "Paul",
             "lastName": "Touw",
-            "profileImage": "https://stellar.aero/site-content/team/paul-touw.jpg"
+            "profileImage": "/demoApp/assets/site-content/team/paul-touw.jpg"
          },
          "aircraft":{
             "typeId":6,
@@ -324,7 +324,7 @@
             "typeEnum":"TURBOPROP",
             "yearOfMake":1981,
             "images":[
-               "https://common-public.stellar.aero/entity/AircraftType/6_1438624092672_Beechcraft_KingAir_B200_hq.jpg"
+               "/demoApp/assets/entity/AircraftType/6_1438624092672_Beechcraft_KingAir_B200_hq.jpg"
             ],
             "type":"Turboprop",
             "name":"King Air B200",
@@ -333,8 +333,8 @@
             "version":26
          },
           "passengers":[
-             "https://stellar.aero/site-content/team/paul-touw.jpg",
-             "https://stellar.aero/site-content/team/david-fox.jpg"
+             "/demoApp/assets/site-content/team/paul-touw.jpg",
+             "/demoApp/assets/site-content/team/david-fox.jpg"
           ],
          "legs":[
             {

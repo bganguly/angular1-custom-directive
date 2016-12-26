@@ -147,14 +147,14 @@ body {
 }
 
 .departureIcon {
-    background-image: url("/stellarApp/assets/icons/flight_takeoff.svg");
+    background-image: url("/demoApp/assets/icons/flight_takeoff.svg");
 }
 
 .arrivalIcon {
-    background-image: url("/stellarApp/assets/icons/flight_land.svg");
+    background-image: url("/demoApp/assets/icons/flight_land.svg");
 }
 .manIcon {
-    background-image: url("/stellarApp/assets/icons/man.svg");
+    background-image: url("/demoApp/assets/icons/man.svg");
 }
 .departureInfo,.arrivalInfo {
     border-bottom: 1px solid #e5e6e8;

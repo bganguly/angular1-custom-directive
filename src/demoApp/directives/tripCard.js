@@ -10,10 +10,10 @@ NS.tripCard = function () {
         controller: NS.tripCard,
         controllerAs: 'tripCardCtl',
         bindToController: true,
-        templateUrl: '/stellarApp/partials/tripCard.html'
+        templateUrl: '/demoApp/partials/tripCard.html'
     };
 };
 
-NS.stellarApp.directive('tripCard', NS.tripCard);
+NS.demoApp.directive('tripCard', NS.tripCard);
 
 
