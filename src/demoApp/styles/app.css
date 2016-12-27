@@ -136,8 +136,9 @@ body {
 }
 .cardDetailsRight {
     font-size: 10px;
-    padding-left:10px;
+    padding-left:1%;
     border-left: 1px solid #e5e6e8;
+    width:38%;
 }
 .departureIcon, .arrivalIcon, .manIcon {
     background-repeat: no-repeat;

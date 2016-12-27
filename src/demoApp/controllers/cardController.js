@@ -25,7 +25,6 @@ NS.tripCard.prototype.getTripData = function (httpService) {
         } else {
             console.log("error parsing server data")
         }
-        console.log(self.tripCardsData);
     }).
     error(function () {
         console.log("error retrieving server data")
